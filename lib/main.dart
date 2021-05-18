@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shoppapp/constants.dart';
+import 'models/screens/details/components/details_screen.dart';
 import 'models/screens/home/home_screen.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeScreen()
+      home: HomeScreen(),
     );
   }
 }

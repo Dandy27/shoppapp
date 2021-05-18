@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shoppapp/constants.dart';
-import 'package:shoppapp/models/products.dart';
+import 'package:shoppapp/models/product.dart';
 import 'package:shoppapp/models/screens/details/components/details_screen.dart';
 
 import 'categories.dart';

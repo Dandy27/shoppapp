@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../constants.dart';
-import '../../../products.dart';
+import '../../../product.dart';
 
 
 class ItemCard extends StatelessWidget {
@@ -38,7 +38,7 @@ class ItemCard extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.symmetric(vertical: kDefaultPaddin / 4),
+            padding: const EdgeInsets.symmetric(vertical: kDefaultPaddin /4),
             child: Text(
               // products is out demo list
               product.title,
